@@ -13,7 +13,7 @@ export default function() {
             <h1>
               <DiReact color="#317fd4" size={35}/>
             </h1>
-            <h1 className='text-green-700'>Technology Web Store</h1>
+            <h1 className='text-primary'>Technology Web Store</h1>
           </div>
 
           <ul className='flex gap-7 items-center'>
@@ -29,7 +29,7 @@ export default function() {
 
             <Link className='flex gap-2 py-2 px-4 rounded-md bg-secundary text-white' to="/cart">
                 <AiOutlineShoppingCart size={25}/>
-                Cart
+                Carrinho
               </Link>
             
 
