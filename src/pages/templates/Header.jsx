@@ -13,7 +13,7 @@ export default function() {
             <h1>
               <DiReact color="#317fd4" size={35}/>
             </h1>
-            <h1 className='text-green-700'>compre pelo whatsapp</h1>
+            <h1 className='text-green-700'>Technology Web Store</h1>
           </div>
 
           <ul className='flex gap-7 items-center'>
