@@ -7,10 +7,10 @@ import notFound from './notFound.jsx';
 export function AppRoutes() {
   return (
     <Router>
-      <Routes >
-        <Route path="*" element={<Home />} />
-        <Route path="/webstore" element={<Home/>}/>
-        <Route path="/cart" element={<Cart/>}/>
+      <Routes>
+        <Route path="/" element={<Home/>}/>
+        <Route path="webstore/cart" element={<Cart/>}/>
+        <Route path="/webstore" element={<Home />} />
       </Routes>
     </Router>
   )
