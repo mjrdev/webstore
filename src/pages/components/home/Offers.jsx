@@ -14,7 +14,7 @@ export default function() {
         </article>
       </div>
 
-      <aside className="h-100 w-[300px] bg-violet-400 drop-shadow-md">
+      <aside className="h-100 w-[300px] bg-secundary drop-shadow-md">
           BANNER DE OFERTAS
       </aside>
     </div>

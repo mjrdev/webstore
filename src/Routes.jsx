@@ -7,7 +7,7 @@ export function AppRoutes() {
   return (
     <Router>
       <Routes >
-        <Route path="/webapp" element={<Home></Home>}/>
+        <Route path="/webstore" element={<Home></Home>}/>
         <Route path="/cart" element={<Cart></Cart>}/>
       </Routes>
     </Router>
