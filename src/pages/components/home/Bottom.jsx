@@ -2,39 +2,41 @@
 export default function() {
   return (
       <div className=" bg-primary-dark text-white p-spacing-y">
-        <div className="flex justify-center gap-x-10">
+        <div className="flex justify-center gap-x-24 pb-10">
         
           <ul>
-            <h1 className="font-bold">Departamentos</h1>
-            <li className="text-[10pt]">Eletrônicos</li>
-            <li className="text-[10pt]">Perifericos</li>
-            <li className="text-[10pt]">Telefones e Celulares</li>
-            <li className="text-[10pt]">Computadores</li>
-            <li className="text-[10pt]">TVs e Aúdio</li>
+            <h1 className="font-bold text-[13pt]">Departamentos</h1>
+            <li className="text-[12pt]">Eletrônicos</li>
+            <li className="text-[12pt]">Perifericos</li>
+            <li className="text-[12pt]">Telefones e Celulares</li>
+            <li className="text-[12pt]">Computadores</li>
+            <li className="text-[12pt]">TVs e Aúdio</li>
+            <li className="text-[12pt]">Cabos e Utilitários</li>
+            <li className="text-[12pt]">Decorativos</li>
           </ul>
 
           <ul>
-            <h1 className="font-bold">Politica</h1>
-            <li className="text-[10pt]">Sobre nós</li>
-            <li className="text-[10pt]">Termos de compromisso</li>
-            <li className="text-[10pt]">Reembolso</li>
-            <li className="text-[10pt]">Devoluções</li>
+            <h1 className="font-bold text-[13pt]">Politica</h1>
+            <li className="text-[12pt]">Sobre nós</li>
+            <li className="text-[12pt]">Termos de compromisso</li>
+            <li className="text-[12pt]">Reembolso</li>
+            <li className="text-[12pt]">Devoluções</li>
           </ul>
 
           <ul>
-            <h1 className="font-bold">Minha Conta</h1>
-            <li className="text-[10pt]">Meus pedidos</li>
-            <li className="text-[10pt]">Lista de desejo</li>
-            <li className="text-[10pt]">Remover Newsletter</li>
-            <li className="text-[10pt]">Reembolso</li>
+            <h1 className="font-bold text-[13pt]">Minha Conta</h1>
+            <li className="text-[12pt]">Meus pedidos</li>
+            <li className="text-[12pt]">Lista de desejo</li>
+            <li className="text-[12pt]">Remover Newsletter</li>
+            <li className="text-[12pt]">Reembolso</li>
           </ul>
 
           <ul>
-            <h1 className="font-bold">Redes Sociais</h1>
-            <li className="text-[10pt]">Instagram</li>
-            <li className="text-[10pt]">Facebook</li>
-            <li className="text-[10pt]">Twitter</li>
-            <li className="text-[10pt]">LinkenIn</li>
+            <h1 className="font-bold text-[13pt]">Redes Sociais</h1>
+            <li className="text-[12pt]">Instagram</li>
+            <li className="text-[12pt]">Facebook</li>
+            <li className="text-[12pt]">Twitter</li>
+            <li className="text-[12pt]">LinkenIn</li>
           </ul>
 
         </div>

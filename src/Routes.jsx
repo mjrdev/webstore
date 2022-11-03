@@ -6,8 +6,8 @@ import Cart from './pages/Cart';
 export function AppRoutes() {
   return (
     <Router>
-      <Routes>
-        <Route path="/" element={<Home></Home>}/>
+      <Routes >
+        <Route path="/webapp" element={<Home></Home>}/>
         <Route path="/cart" element={<Cart></Cart>}/>
       </Routes>
     </Router>
