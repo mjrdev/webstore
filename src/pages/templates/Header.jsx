@@ -1,4 +1,5 @@
-import { AiOutlineSearch, AiOutlineShoppingCart, AiFillAppstore } from 'react-icons/ai';
+import { Link } from 'react-router-dom';
+import { AiOutlineSearch, AiOutlineShoppingCart, AiFillAppstore, AiOutlineLogin } from 'react-icons/ai';
 import { DiReact } from 'react-icons/di'
 
 export default function() {
@@ -18,13 +19,16 @@ export default function() {
               <AiOutlineSearch size={25}/>
             </li>
 
-            <li className='flex gap-2 py-2 px-4 rounded-md bg-secundary text-white'>
-              <AiOutlineShoppingCart size={25}/>
-              Carrinho
-            </li>
+            <Link className='flex gap-2 py-2 px-4 rounded-md bg-secundary text-white' to="/cart">
+                <AiOutlineShoppingCart size={25}/>
+                Cart
+              </Link>
             
 
-            <li className='flex gap-2 py-2 px-4 rounded-md bg-secundary text-white self-end'>entrar</li>
+            <li className='flex gap-2 py-2 px-4 rounded-md bg-secundary text-white self-end'>
+              entrar
+              <AiOutlineLogin size={25}/>
+              </li>
           </ul>
 
         </div>

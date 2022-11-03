@@ -2,7 +2,7 @@
 import Header from './templates/Header';
 import Options from './templates/options';
 
-import { Add, Category, ProductList, Offers } from './components/home/index';
+import { Add, Category, ProductList, Offers, Capture, Bottom } from './components/home/index';
 
 export default function App() {
   return (
@@ -15,6 +15,8 @@ export default function App() {
         <ProductList className=""/>
         <Category />
         <Offers/>
+        <Capture />
+        <Bottom />
       </main>
       
     </div>
