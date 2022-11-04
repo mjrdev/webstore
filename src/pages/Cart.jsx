@@ -1,16 +1,14 @@
-import { useState } from "react";
+import { useState } from 'react';
+import Header from './components/cart/Header';
+import BodyCart from './components/cart/BodyCart'
 
 export default function() {
   const [cartVoid, setCartVoid] = useState(true)
 
   return (
     <div>
-      <h1>ok</h1>
-      {
-        cartVoid ?
-        <h1>cart void</h1> :
-        <h1>cart</h1>
-      }
+      <Header />
+      <BodyCart className="sticky"/>
     </div>
   )
 }

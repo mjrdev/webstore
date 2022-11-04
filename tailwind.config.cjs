@@ -19,7 +19,8 @@ module.exports = {
         'screen-max': '1400px'
       },
       margin: {
-        'spacing': '2rem'
+        'spacing': '2rem',
+        'spacing-y': '2rem 0'
       },
       padding: {
         'spacing': '2rem',
@@ -28,8 +29,20 @@ module.exports = {
       },
       width: {
         small: '900px'
+      },
+      backgroundImage: {
+        'banner-add': "url('/banner2.jpg')",
+        'ele': "url('/categorys/eletronicos.jpg')",
+        'perf': "url('/categorys/perifericos.jpg')",
+        'acess': "url('/categorys/acessorios.jpg')",
+        'ofertas': "url('/ofertas.jpg')"
+      },
+      gridColumn: {
+        t: '1fr 2fr'
       }
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms'),
+  ],
 }

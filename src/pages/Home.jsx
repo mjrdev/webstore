@@ -2,12 +2,11 @@
 import Header from './templates/Header';
 import Options from './templates/options';
 
-import { Add, Category, ProductList, Offers, Capture, Bottom } from './components/home/index';
+import { Add, Category, ProductList, Offers, Capture, Bottom, Carousel } from './components/home/index';
 
 export default function App() {
   return (
     <div>
-
       <Header/>
       <Options/>
       <main className="w-full justify-center bg-gray-50">
@@ -16,6 +15,7 @@ export default function App() {
         <Category />
         <Offers/>
         <Capture />
+        <Carousel />
         <Bottom />
       </main>
       

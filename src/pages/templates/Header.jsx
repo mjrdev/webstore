@@ -1,8 +1,11 @@
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { AiOutlineSearch, AiOutlineShoppingCart, AiFillAppstore, AiOutlineLogin, AiOutlineHeart } from 'react-icons/ai';
 import { DiReact } from 'react-icons/di'
 
 export default function() {
+
+  const navigate = useNavigate();
+
   return (
     <div className="flex justify-center h-[5rem] w-full">
       <header className="flex justify-center h-[5rem] w-[1400px] bg-white px-10 z-10 invisible sm:invisible md:invisible lg:visible">
@@ -33,7 +36,7 @@ export default function() {
               </Link>
             
 
-            <li className='flex gap-2 py-2 px-4 rounded-md bg-secundary text-white self-end'>
+            <li className='flex gap-2 py-2 px-4 rounded-md bg-secundary text-white self-end cursor-pointer' onClick={() => navigate('/login')}>
               entrar
               <AiOutlineLogin size={25}/>
               </li>

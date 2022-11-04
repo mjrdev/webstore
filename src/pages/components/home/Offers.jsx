@@ -1,6 +1,10 @@
-import { ItemOffer } from './items/item'
+import { ItemOffer } from './items/item';
+import products from './products';
 
 export default function() {
+
+  const product = products[0]
+
   return (
     <div className="flex w-full justify-center p-spacing-y ">
 
@@ -10,12 +14,12 @@ export default function() {
         </div>
 
         <article className="  row-span-2 flex justify-evenly py-10">
-          <ItemOffer />
+          <ItemOffer name={product.name} price={product.price} img={product.img} asses={product.asses} key={product.name}/>
         </article>
       </div>
 
-      <aside className="h-100 w-[300px] bg-secundary drop-shadow-md">
-          BANNER DE OFERTAS
+      <aside className="h-100 w-[300px] drop-shadow-md bg-ofertas">
+          
       </aside>
     </div>
   )

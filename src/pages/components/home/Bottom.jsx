@@ -2,7 +2,7 @@
 export default function() {
   return (
       <div className=" bg-primary-dark text-white p-spacing-y">
-        <div className="flex justify-center gap-x-24 pb-10">
+        <div className="flex flex-wrap justify-center gap-x-24 pb-10">
         
           <ul>
             <h1 className="font-bold text-[13pt]">Departamentos</h1>
